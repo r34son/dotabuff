@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",serif;
+}
+
+.Header{
+    margin-bottom: 25px;
+    width: 100vw;
+    background-color: #1e2e75;
+    box-shadow: 0px 6px 16px 4px rgba(0,0,0,0.75);
+}
+
+.Header-List{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Header-Item{
+    list-style: none;
+    position: relative;
+    margin-right: 20px;
+}
+
+.Header-Item_current::after{
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    background-color: #800080;
+    border-radius: 12px 12px 0px 0px;
+    bottom: 0;
+    left: 0;
+}
+
+.Header-Item > a{
+    text-decoration: none;   
+    color: #fff;
+    display: block;
+    font-size: 1.2em;   
+    padding: 25px;
+}
