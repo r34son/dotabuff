@@ -2,13 +2,16 @@
   "name": "dotabuff",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://r34son.github.io/dotabuff",
   "dependencies": {
     "@bem-react/classname": "^1.5.3",
+    "@material-ui/core": "^4.3.2",
     "@types/jest": "24.0.17",
     "@types/node": "12.7.1",
     "@types/react": "16.8.25",
     "@types/react-dom": "16.8.5",
     "@types/react-router-dom": "^4.3.4",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -16,6 +19,8 @@
     "typescript": "3.5.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -3,17 +3,22 @@ import { cn } from '@bem-react/classname';
 import "./MatchInfo.css"
 
 interface Props{
-    match:{
+    data:{
         dire_score: any,
+    },
+    match?:{
+        params:{
+            id: any
+        }
     }
 }
 
-const MatchInfo: React.FC<Props> = ({match}) => {
-    const {dire_score} = match;
+const MatchInfo: React.FC<Props> = ({data, match}) => {
+    const {dire_score} = data;
     const cnMatchInfo = cn("MatchInfo");
     return (
         <div className ={cnMatchInfo()}>
-            <div>{dire_score}</div>
+            <div>Match Info: {dire_score}</div>
         </div>
     )
 }

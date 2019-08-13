@@ -3,6 +3,7 @@
 }
 
 .IDForm-Input{
+    background-color: #c5c6c7;
     padding: 10px;
     padding-left: 14px;
     margin-right: 8px;
@@ -17,10 +18,14 @@
 }
 
 .IDForm-Submit{
-    padding: 11px;
+    padding: 8px;
     border: none;
     border-radius: 5px;
     font-family: "Roboto";
+    background-color: #c5c6c7;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
 }
 
 .IDForm-Submit:hover{

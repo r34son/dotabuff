@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dotabuff/static/css/main.380a8504.chunk.css",
+    "main.js": "/dotabuff/static/js/main.4b2db650.chunk.js",
+    "main.js.map": "/dotabuff/static/js/main.4b2db650.chunk.js.map",
+    "runtime~main.js": "/dotabuff/static/js/runtime~main.fa49d422.js",
+    "runtime~main.js.map": "/dotabuff/static/js/runtime~main.fa49d422.js.map",
+    "static/js/2.4d147557.chunk.js": "/dotabuff/static/js/2.4d147557.chunk.js",
+    "static/js/2.4d147557.chunk.js.map": "/dotabuff/static/js/2.4d147557.chunk.js.map",
+    "index.html": "/dotabuff/index.html",
+    "precache-manifest.285e571fcae0d51cdd588c30db61a911.js": "/dotabuff/precache-manifest.285e571fcae0d51cdd588c30db61a911.js",
+    "service-worker.js": "/dotabuff/service-worker.js",
+    "static/css/main.380a8504.chunk.css.map": "/dotabuff/static/css/main.380a8504.chunk.css.map"
+  }
+}
