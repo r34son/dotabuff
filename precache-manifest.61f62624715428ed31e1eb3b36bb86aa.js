@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd614e27868d98b701286daffc335bfb",
+    "revision": "91d28e50bda0f288f2da451119a418dc",
     "url": "/dotabuff/index.html"
   },
   {
-    "revision": "37f34300ebe91a761eac",
+    "revision": "e4c2fe2fe02e1b17c689",
     "url": "/dotabuff/static/css/main.e645ac58.chunk.css"
   },
   {
-    "revision": "24950006bd073bed5b4f",
-    "url": "/dotabuff/static/js/2.f618ccde.chunk.js"
+    "revision": "8bf46c85abfb89356392",
+    "url": "/dotabuff/static/js/2.5a46bacc.chunk.js"
   },
   {
-    "revision": "37f34300ebe91a761eac",
-    "url": "/dotabuff/static/js/main.f29aa618.chunk.js"
+    "revision": "e4c2fe2fe02e1b17c689",
+    "url": "/dotabuff/static/js/main.3cb1e54b.chunk.js"
   },
   {
     "revision": "d6dc326819622f5241df",
