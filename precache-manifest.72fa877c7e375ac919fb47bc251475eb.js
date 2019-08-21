@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7a17fdd00fa6828bb89a9957083aacf",
+    "revision": "74519ff6e38bc5701d500519675c07c1",
     "url": "/dotabuff/index.html"
   },
   {
