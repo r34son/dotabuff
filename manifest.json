@@ -5,7 +5,7 @@
   "background_color": "#333333",
   "display": "standalone",
   "orientation": "portrait",
-  "start_url": ".",
+  "start_url": "/dotabuff",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
