@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dotabuff/precache-manifest.d611ee8d75df471e00407e6c21c0fe42.js"
+  "/dotabuff/precache-manifest.aeb2022f612d12da4bf2a58bc91cc4eb.js"
 );
 
 self.addEventListener('message', (event) => {
