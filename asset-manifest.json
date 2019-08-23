@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dotabuff/static/css/main.e645ac58.chunk.css",
-    "main.js": "/dotabuff/static/js/main.90d8f3cb.chunk.js",
-    "main.js.map": "/dotabuff/static/js/main.90d8f3cb.chunk.js.map",
+    "main.css": "/dotabuff/static/css/main.d3af8f0d.chunk.css",
+    "main.js": "/dotabuff/static/js/main.a893f7e5.chunk.js",
+    "main.js.map": "/dotabuff/static/js/main.a893f7e5.chunk.js.map",
     "runtime~main.js": "/dotabuff/static/js/runtime~main.fa49d422.js",
     "runtime~main.js.map": "/dotabuff/static/js/runtime~main.fa49d422.js.map",
-    "static/js/2.11109f86.chunk.js": "/dotabuff/static/js/2.11109f86.chunk.js",
-    "static/js/2.11109f86.chunk.js.map": "/dotabuff/static/js/2.11109f86.chunk.js.map",
+    "static/js/2.658138cc.chunk.js": "/dotabuff/static/js/2.658138cc.chunk.js",
+    "static/js/2.658138cc.chunk.js.map": "/dotabuff/static/js/2.658138cc.chunk.js.map",
     "index.html": "/dotabuff/index.html",
-    "precache-manifest.8e06711524134e9e08c12556dd46d363.js": "/dotabuff/precache-manifest.8e06711524134e9e08c12556dd46d363.js",
+    "precache-manifest.6ff03931c381bf718b76bdf02f1d4ec2.js": "/dotabuff/precache-manifest.6ff03931c381bf718b76bdf02f1d4ec2.js",
     "service-worker.js": "/dotabuff/service-worker.js",
-    "static/css/main.e645ac58.chunk.css.map": "/dotabuff/static/css/main.e645ac58.chunk.css.map"
+    "static/css/main.d3af8f0d.chunk.css.map": "/dotabuff/static/css/main.d3af8f0d.chunk.css.map"
   }
 }
