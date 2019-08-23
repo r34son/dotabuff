@@ -1,3 +1,40 @@
 body{
-    background-color: #1f2833;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",serif;
+    background-color: #333333;
 }
+
+.Loading {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+  }
+
+.Loading:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #66fcf1 transparent #66fcf1 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .container{
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }

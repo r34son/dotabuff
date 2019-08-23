@@ -1,9 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./components/Header/Header"
-import MatchPage from "./components/MatchPage/MatchPage"
-import PlayerPage from "./components/PlayerPage/PlayerPage"
-import IDForm from './components/IDForm/IDForm';
+import { HashRouter as Router, Route } from "react-router-dom";
+import Header from "./components/Header"
+import MatchPage from "./components/MatchPage"
+import PlayerPage from "./components/PlayerPage"
+import IDForm from './components/IDForm';
+import MainPage from './components/MainPage'   
+import SearchPlayer from './components/SearchPlayer';
 import "./App.css"
 
 const App: React.FC = () => {
@@ -11,10 +13,11 @@ const App: React.FC = () => {
     <div className="App">
       <Router>
         <Header/>
-        <Route path="/match/" exact render={() => <IDForm forplayer={false} placeholder="Match ID"/>} />
-        <Route path="/player/" exact render={() => <IDForm forplayer placeholder="Player ID" value="212884473"/>} />
-        <Route path="/match/:id" component={MatchPage}  />
-        <Route path="/player/:id" component={PlayerPage}  />
+        <Route path="/" exact component={MainPage}/>
+        <Route path="/match/" exact render={() => <IDForm formatch placeholder="Match ID"/>} />
+        <Route path="/search/" component={SearchPlayer} />
+        <Route path="/match/:id" component={MatchPage} />
+        <Route path="/player/:id" component={PlayerPage} />
       </Router>
     </div>
   );
